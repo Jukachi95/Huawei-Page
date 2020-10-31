@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    height: 100vh;
+}
+
+#nav-main{
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* height: 90px; */
+    padding: 1rem 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #DCDCDC;
+    /* box-shadow: -3px 10px 14px -10px rgba(0,0,0,0.82); */
+}
+
+
+#nav-main ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 10px;
+    flex-wrap: wrap;
+ }
+ 
+ #nav-main li{
+     list-style-type: none;
+     margin-right: 0.5rem;
+ }
+
+#nav-main li a{
+    color: #808080;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 1rem
+}
+
+.header-primary-logo{
+    /* margin-left: 10px; */
+    width: 100px;
+    height: 75px;
+    background-image: url('../img/huawei_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* margin: auto; */
+}
+
+.header{
+    height:60vh;
+    background-color: blue;
+    background: url('../img/huawei_background_header.jpg');
+    max-width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-color: #808080;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+/* .header-showcase{
+    height: auto;
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aqua;
+   overflow: hidden;
+} */
+
+.header .btn-text{
+  background-color: transparent;
+  border: 1px solid #444;
+  color: #444;
+  padding: 12px 37px; 
+  
+}
+
+.header .btn-text:hover{
+   background-color: #e76c67;
+   border: 1px solid #e76c67;
+   color:#fff;
+   transition: all 0.6s;
+   cursor: pointer;
+ }
+/* 
+.header-primary-items {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+ }
+ 
+
+
+
+.header-primary-items-left li a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 0.93rem;
+    color: 	#808080;
+    font-weight: 400;
+}
+
+
+.header-items-right{
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-secondary{
+    background: #f5f3f3;
+    height: 65px;
+    width: 100%;
+    z-index:1;
+} */
