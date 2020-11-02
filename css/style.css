@@ -52,7 +52,7 @@ body{
 
 .header{
     height:60vh;
-    background-color: blue;
+    /* background-color: blue; */
     background: url('../img/huawei_background_header.jpg');
     max-width: 100%;
     background-position: 50% 50%;
@@ -95,6 +95,7 @@ body{
      margin: 0 auto;
      margin-top: 6.5em;
      background: #444;
+     height: 100vh;
  }
 
 
@@ -107,15 +108,42 @@ body{
 
  .showcase-container .showcase-images{
      display: grid;
-    grid-template-columns: repeat(2, 1fr);
-     /* grid-template-columns: 300px 100px */
     background: #e76c67;
+    max-width: 120rem;
+    width: 100%;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: "e e e e e . . m m"
+                          "c c c c c . . d d";
+    grid-auto-rows: minmax(300px, auto)
+ }
+
+ .showcase-container .showcase-image .showcase-image-box figure{
     width: 100%;
  }
 
- .showcase-container .showcase-image .showcase-image-box picture img{
-    width: 100px;
- }
+.box-1{
+    grid-area: e;
+    background-color: black;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+
+
+.box-2{
+    grid-area: m;
+    background-color: grey;
+}
+
+.box-3{
+    grid-area: c;
+    background-color: green;
+}
+
+.box-3{
+    grid-area: d;
+    background-color:blue;
+}
  /* .showcase-container h2::after{
      content:'';
      width: 30%;
