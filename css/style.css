@@ -107,8 +107,14 @@ body{
 
  .showcase-container .showcase-images{
      display: grid;
-     width: 100%;
-     
+    grid-template-columns: repeat(2, 1fr);
+     /* grid-template-columns: 300px 100px */
+    background: #e76c67;
+    width: 100%;
+ }
+
+ .showcase-container .showcase-image .showcase-image-box picture img{
+    width: 100px;
  }
  /* .showcase-container h2::after{
      content:'';
