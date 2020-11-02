@@ -94,6 +94,7 @@ body{
      max-width: 1010px;
      margin: 0 auto;
      margin-top: 6.5em;
+     background: #444;
  }
 
 
@@ -106,8 +107,8 @@ body{
 
  .showcase-container .showcase-images{
      display: grid;
-     
      width: 100%;
+     
  }
  /* .showcase-container h2::after{
      content:'';
