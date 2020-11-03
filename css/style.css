@@ -74,6 +74,39 @@ body{
    overflow: hidden;
 } */
 
+.header-sec{
+    max-width: 70rem;
+}
+
+.parent-img{
+height: 24rem;
+position: relative;
+
+}
+
+.img-11{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: relative;
+}
+
+
+.img-12{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.overlay{
+    position: fixed;
+}
+
+/* .img-11-parent{
+    height: 400px;
+} */
+
 .header .btn-text{
   background-color: transparent;
   border: 1px solid #444;
@@ -91,10 +124,9 @@ body{
  }
 
  .showcase-container{
-     max-width: 1010px;
+     /* max-width: 1010px; */
      margin: 0 auto;
      margin-top: 6.5em;
-     background: #444;
      height: 100vh;
  }
 
@@ -108,9 +140,9 @@ body{
 
  .showcase-container .showcase-images{
      display: grid;
-    background: #e76c67;
-    max-width: 120rem;
-    width: 100%;
+    /* background: #e76c67; */
+    /* max-width: 120rem; */
+    /* width: 100%; */
     grid-template-columns: repeat(9, 1fr);
     grid-template-areas: "e e e e e . m m m"
                           "c c c c c c . d d"
@@ -119,28 +151,22 @@ body{
     
  }
 
- .showcase-container .showcase-image .showcase-image-box figure{
-    width: 100%;
+ .figure{
+     object-fit: cover;
  }
+ 
 
 .box-1{
     grid-area: e;
-   
-    background-size: cover;
     max-width: 100%;
-    /* background-image: url('../img/huawei-earpods.jpg'); */
-
+   align-items: center;
+   justify-content: center;
 }
 
 .box-1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.box-1 p{
-    z-index: 20;
-    color: blue;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 
@@ -148,15 +174,13 @@ body{
     grid-area: m;
    
     /* background-image: url('../img/huawei-model.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
     max-width: 100%;
 }
 
 .box-2 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .box-3{
