@@ -131,11 +131,11 @@ position: relative;
  }
 
 
- .showcase-container h2{
+ .main-section h2{
      text-align: center;
-     margin-bottom: 3.5em;
      font-family: 'Varela';
      text-decoration: #e76c67 solid underline;
+     font-size: 2rem;
  }
 
  .showcase-container .showcase-images{
