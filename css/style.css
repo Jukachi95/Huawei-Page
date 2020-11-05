@@ -51,13 +51,9 @@ body{
 }
 
 .header{
-    height:60vh;
+    /* height:60vh; */
     /* background-color: blue; */
     background: url('../img/huawei_background_header.jpg');
-    max-width: 100%;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-color: #808080;
     display: flex;
     align-items: center;    
     justify-content: center;
