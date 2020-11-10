@@ -204,6 +204,17 @@ position: relative;
     background-color: red;
 }
 
+.card-event{
+    background-color: #f2f2f2
+}
+
+.footer-main{
+    background-color: #f2f2f2
+}
+
+.footer-inner{
+    font-family: 'Varela';
+}
  /* .showcase-container h2::after{
      content:'';
      width: 30%;
